@@ -2,7 +2,7 @@
 ## Installation and setting up scene
 * Download and install Unity 2020+ (Probably it will work on other version too)
 * Open Unity Hub and click on the **New project** tab. After that select **3D** project, name it and set your location. Notice that the proposed depth camera will not work for **HDRP** and **URP**
-* In the Unity Editor you will see your new empty scene. 
+* In the Unity Editor you will see your new empty scene 
 * Navigate to `Project` tab and create empty script there is desired folder. For example, create **Scripts** folder under **Assets** folder and create inside of it script by right clicking in empty space and then **Create** - **C# Script**. Name it **depth_script**. Then double click on it. Visual Studio will open
 * Inside of it paste code from **depth_script.cs** file 
 * Now in `Project` tab create **Material** by right clicking in empty space **Create** - **Material** (name it **depth_material**). Besides that you need to create shader by repeating the same procedure, but choose **Create** - **Shader** - **Standard Surface Shader** (name it **depth_shader**). CLick on shader object and in `Inspector` window click **Open**
