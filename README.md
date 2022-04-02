@@ -23,3 +23,4 @@
 </p>
 
 * Your depth camera is ready! Just add some object to your scene and press **Play** button. In game mode you can move your object and observe how depth camera is works!
+* You can modify current script to save input from camera to your desired folder
