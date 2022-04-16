@@ -13,7 +13,7 @@
   <img width="651" height="216" src="images/depth.png">
 </p>
 
-* Navigate to `Hierarchy` window and create new camera object (right click and **Camera**) by naming it **Depth Camera**. You can delete **Main Camera** object from `Hierarchy` or hide **Camera** script from this object
+* Navigate to `Hierarchy` tab and create new camera object (right click and **Camera**) by naming it **Depth Camera**. You can delete **Main Camera** object from `Hierarchy` or hide **Camera** script from this object
 * You now need to add script to your **Depth Camera** object, which is called **depth_script**. Just click on **Depth Camera** game object and **Add Component*** from `Inspector`. In appeared list type **depth_script** and choose it
 * Drag newly created material object from `Project` tab next to **Mat** in `Inspector` window
 * In Depth Camera's **Camera** script, next to **Clipping Planes** set value for **Near and Far** as **0.1 and 20** respectively. For Depth choose **-1**. Your Camera script should look like this:
